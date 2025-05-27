@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Libros</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <!-- Menu Superior-->
+   <header class="menu">
+     <nav class="navegacion">
+     <nav>
+		<ul class="menu">
+			<li><a href="menu.html">Inicio</a>
+				
+			<li><a href="pagina2.html">Biografia  </a>
+				<ul>
+					<li><a href="pagina7.html">Biografia de Leonardo da Vinci</a></li>
+				</ul>
+			</li>
+			<li><a href="pagina3.html">Aportes al renacimiento</a>
+				<ul>
+					<li><a href="pagina9.html">Estudios Anatomicos</a></li>
+				</ul>
+			</li>
+			<li><a href="pagina4.html">Tecnicas y Materiales </a>
+				<ul>
+					<li><a href="pagina8.html">Inventos</a></li>
+				</ul>
+			</li>
+      <li><a href="pagina5.html">Libros</a>
+				<ul>
+					<li><a href="pagina11.html">Legado Artistico</a></li>
+				</ul>
+			</li>
+      <li><a href="pagina6.html">Obras</a>
+				<ul>
+					<li><a href="pagina10.html">Obras de Leonardo</a></li>
+				</ul>
+			</li>
+       <li><a href="index.html" class="cerrar-sesion">Cerrar sesión</a></li>
+  
+    <div class="logo-perfil">
+      <img src="img/logo.png" alt="Perfil">
+    </div>
+
+		</nav>
+
+  </header>
+
+  <section class="principal5">
+    <div class="texto-4">
+      <br>
+      <h1><marquee direction="down">LIBROS</marquee></h1>
+      <br>
+      <br>
+      <section>
+        <h2>Libros de Miguel Ángel o sobre sus escritos</h2>
+        <table border="1" cellpadding="10" cellspacing="0" style="width: 100%; border-collapse: collapse;">
+          
+            <tr>
+              <th>Título</th>
+              <th>Año de Publicación</th>
+              <th>Contenido</th>
+              <th>Editor / Autor</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Los poemas de Miguel Ángel</td>
+              <td>Siglo XVI (compilado en siglos posteriores)</td>
+              <td>Selección de su poesía amorosa y espiritual</td>
+              <td>Diversos compiladores</td>
+            </tr>
+            <tr>
+              <td>Cartas de Miguel Ángel</td>
+              <td>Compiladas en el siglo XIX y XX</td>
+              <td>Correspondencia personal y profesional</td>
+              <td>Editor: E.H. Ramsden (traducción inglesa conocida)</td>
+            </tr>
+            <tr>
+              <td>Miguel Ángel: Poesía completa</td>
+              <td>Edición moderna</td>
+              <td>Todos los poemas disponibles en una sola edición</td>
+              <td>Traducción y notas de John Frederick Nims</td>
+            </tr>
+            <tr>
+              <td>Vida de Miguel Ángel</td>
+              <td>1553</td>
+              <td>Biografía escrita por su discípulo</td>
+              <td>Ascanio Condivi</td>
+            </tr>
+          </tbody>
+        </table>
+        <br>
+        <justificado>
+        <p><span class="subtema">Los poemas de Miguel Ángel</span><br>
+            Es una colección de poesías escritas por el artista donde expresa temas como el amor, la espiritualidad y la belleza. Aunque muchos no fueron publicados en vida, se han conservado y traducido a lo largo del tiempo.</p>
+         <br>
+            <p><span class="subtema">Cartas de Miguel Angel </span></br>
+              Este conjunto de cartas revela aspectos personales y profesionales de su vida. A través de ellas, se puede conocer mejor su carácter, relaciones y dificultades durante sus encargos artísticos.</p>
+             <br>
+              <p><span class="subtema">Miguel Ángel: Poesía completa</span></br>
+                Una edición moderna que recopila todos sus poemas conocidos, incluyendo notas y traducciones. Refleja su lado más íntimo y su sensibilidad literaria.</p>
+               <br>
+                <p><span class="subtema">Vida de Miguel Ángel</span></br>
+                    Biografía escrita por su discípulo Ascanio Condivi en 1553. Fue realizada con la aprobación del propio Miguel Ángel y es una fuente muy valiosa para entender su vida y pensamiento artístico.</p>
+            <br>
+            <p><strong>Michelangelo di Lodovico Buonarroti Simoni</strong> (Caprese, 6 de marzo de 1475-Roma, 18 de febrero de 1564), conocido en español como Miguel Ángel, fue un arquitecto, escultor, pintor y poeta italiano renacentista, considerado uno de los más grandes artistas de la historia tanto por sus esculturas como por sus pinturas y obra arquitectónica.[1]​ Desarrolló su labor artística a lo largo de más de setenta años entre Florencia y Roma, que era donde vivían sus grandes mecenas, la familia Médici de Florencia y los diferentes papas romanos.
+            <br>
+             Fue el primer artista occidental del que se publicaron dos biografías en vida: Le vite de' più eccellenti pittori, scultori e architettori, de Giorgio Vasari, publicada en 1550 en su primera edición, en la cual fue el único artista vivo incluido,[2]​ y Vita de Michelangelo Buonarroti, escrita en 1553 por Ascanio Condivi, pintor y discípulo de Miguel Ángel, que recoge los datos facilitados por el mismo Buonarroti.Fue muy admirado por sus contemporáneos, que le llamaban el Divino.[</p>
+        </justificado>
+                    <br>
+              <button onclick="mostrarFormulario()">Mostrar formulario de contacto</button>
+
+              <div id="formularioContacto">
+                <form action="#" name="solutionFormulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" maxlength="30">
+                    
+                    <label for="email">Apellido</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Escribe tu Apellido" required maxlength="30">
+                   
+                    <label for="pais">Pais</label>
+                    <select name="pais" id="pais" name="pais" placeholder="Selecciona tu Pais" required maxlength="30">
+                        <option value="">Selecciona tu país</option>
+                            <option value="honduras">Honduras</option>
+                            <option value="mexico">Mexico</option>
+                            <option value="espana">Espana</option>
+                            <option value="colombia">Colombia</option>
+                            <option value="argentina">Argentina</option>
+
+                           
+                    </select>
+               <label for="libros">Libros</label>
+                    <input type="text" id="libro" name="apellido" placeholder="Libros" required maxlength="30">
+                
+                     <br>
+                      <button type="submit">Enviar</button>
+            
+              <script>
+                function mostrarFormulario() {
+                  const form = document.getElementById("formularioContacto");
+                  form.style.display = form.style.display === "none" ? "block" : "none";
+                }
+              </script>
+
+        </section>
+        </div>
+  </section>
+        <div class="footer3">
+            <p>(Genesis Gomez)genesis.gomez@tecnico-honduras.com 2025</p>
+          </div>
+          </footer>
+          </body>
+          </html>
